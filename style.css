@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.login-form, .admin-panel, .content {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.login-form h2, .admin-panel h1, .content h1 {
+    text-align: center;
+}
+
+.login-form form, .admin-panel form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form form input, .admin-panel form input, .admin-panel form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.login-form form button, .admin-panel form button {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.admin-panel nav {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.admin-panel nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+.admin-panel nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.admin-panel nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.admin-panel table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+.admin-panel table, .admin-panel table th, .admin-panel table td {
+    border: 1px solid #ddd;
+}
+
+.admin-panel table th, .admin-panel table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.content .post {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content .post img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
